@@ -29,11 +29,11 @@ filename_patterns = {
    'SLES11':   'NessusAgent.*suse11.x86_64.rpm',
    'SLES12':   'NessusAgent.*suse12.x86_64.rpm',
    'SLES15':   'NessusAgent.*suse15.x86_64.rpm',
-   'Ubuntu14': 'NessusAgent.*ubuntu1110_amd64.deb',
-   'Ubuntu16': 'NessusAgent.*ubuntu1110_amd64.deb',
-   'Ubuntu18': 'NessusAgent.*ubuntu1110_amd64.deb',
-   'Ubuntu20': 'NessusAgent.*ubuntu1110_amd64.deb',
-   'Ubuntu22': 'NessusAgent.*ubuntu1110_amd64.deb',   
+   'Ubuntu14': 'NessusAgent.*ubuntu1404_amd64.deb',
+   'Ubuntu16': 'NessusAgent.*ubuntu1404_amd64.deb',
+   'Ubuntu18': 'NessusAgent.*ubuntu1404_amd64.deb',
+   'Ubuntu20': 'NessusAgent.*ubuntu1404_amd64.deb',
+   'Ubuntu22': 'NessusAgent.*ubuntu1404_amd64.deb',   
 }
 
 print('Downloading index page', file=sys.stderr)
